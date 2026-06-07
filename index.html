@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthdayyyyyy</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="music/SZA - Saturn.mp3" type="audio/mpeg">
+</audio>
+
+<!-- PAGE 1 -->
+
+<section id="envelopePage">
+
+    <div class="stars"></div>
+
+    <div class="title">
+        A Letterrr :D
+    </div>
+
+    <div id="envelope">
+        <div class="front"></div>
+        <div class="flap"></div>
+        <div class="heart">💙</div>
+    </div>
+
+    <p class="hint">Click the envelope</p>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section id="birthdayPage">
+
+    <h1>
+        Happy Birthday Sadhika 
+    </h1>
+
+    <div class="storybook">
+
+        <img id="slideImage"
+             src="images/1.jpg">
+
+    </div>
+
+    <div class="message">
+
+        <p>
+        Today is all about celebrating the wonderful
+        person you are.
+
+        May your day be filled with laughter,
+        magical moments,
+        beautiful memories,
+        and everything that makes you smile.
+
+        Like the stars above the bayou,
+        may your dreams shine brighter every year.
+
+        Enjoy your day :P
+        </p>
+
+        <br>
+
+        <strong>
+        — The one cooler than you
+        </strong>
+
+    </div>
+
+    <div class="guestbook">
+
+        <h2>Leave a Birthday Wish :></h2>
+
+        <input
+            id="name"
+            placeholder="Your Name">
+
+        <textarea
+            id="wish"
+            placeholder="Write your message"></textarea>
+
+        <button id="sendWish">
+            Send Wish 
+        </button>
+
+        <div id="messages"></div>
+
+    </div>
+
+</section>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
