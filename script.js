@@ -109,7 +109,7 @@ sendBtn.addEventListener("click", async ()=>{
         document.getElementById("wish").value;
 
     if(!name || !wish){
-        alert("Please fill both fields 💙");
+        alert("Please fill both fields :D");
         return;
     }
 
