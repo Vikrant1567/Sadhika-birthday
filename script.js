@@ -25,7 +25,8 @@ envelope.addEventListener("click", () => {
         origin: { y: 0.6 }
     });
 
-    music.play();
+    music.currentTime = 0;
+    music.play().catch(console.error);
 
     setTimeout(() => {
 
