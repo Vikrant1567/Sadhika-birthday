@@ -82,16 +82,16 @@ body{
 /* PAGE 2 */
 
 #birthdayPage{
-    min-height:100vh;
-    display:none;
-    text-align:center;
-    padding:40px 20px;
     background:
     linear-gradient(
-    to bottom,
-    #0d2460,
-    #051125
-    );
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+    url("images/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #birthdayPage h1{
